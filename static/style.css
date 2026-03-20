@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-style: none;
+    background-color:#a09c5c;
+}
+header{
+    padding: 2rem;
+    border-style: solid;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: #1c2957;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+h1{
+    padding: 0.5rem;
+    background: #1c2957;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-style: solid;
+    justify-content: center;
+}
+form{
+    columns: 3; 
+    padding: 2rem;
+    border: #1c2957;
+    border-style: solid;
+    background-color: #f08f7f;
+    border-radius: 10px;
+    outline: 8px;
+    outline-style: solid;
+    outline-color: #706d41;
+    page: 50px;
+    font-size: 24px;
+    line-height: 50px;
+}
+label{
+    background-color:#f08f7f
+}
+input{
+    background-color: #a09c5c;
+    border-style: solid;
+    border-color: #1c2957;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+select{
+    width: 300px;
+    background-color: #a09c5c;
+    border-style: solid;
+    border-color: #1c2957;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+textarea{
+    border-style: solid;
+    border-color: #1c2957;
+    background-color: #a09c5c;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
