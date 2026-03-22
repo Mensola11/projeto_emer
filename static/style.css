@@ -11,6 +11,7 @@ header{
     border-radius: 10px;
     color: whitesmoke;
     background: #1c2957;
+    box-shadow: 10px 10px 5px #706d41;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
@@ -22,29 +23,30 @@ h1{
     color: whitesmoke;
     border-radius: 10px;
     border-style: solid;
+    box-shadow: 10px 10px 5px #706d41;
     justify-content: center;
 }
 form{
     columns: 3; 
     padding: 2rem;
-    border: #1c2957;
+    border: whitesmoke;
     border-style: solid;
-    background-color: #f08f7f;
+    background-color: #1c2957;
     border-radius: 10px;
-    outline: 8px;
-    outline-style: solid;
-    outline-color: #706d41;
+    box-shadow: 10px 10px 5px #706d41;
     page: 50px;
     font-size: 24px;
     line-height: 50px;
 }
 label{
-    background-color:#f08f7f
+    background-color:transparent;
+    color: whitesmoke;
+    
 }
 input{
     background-color: #a09c5c;
     border-style: solid;
-    border-color: #1c2957;
+    border-color: whitesmoke;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -54,20 +56,48 @@ input{
 select{
     width: 300px;
     background-color: #a09c5c;
+    border: 2px;
     border-style: solid;
-    border-color: #1c2957;
+    border-color: whitesmoke;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     color: black;
 }
 textarea{
+    border: 2px;
     border-style: solid;
-    border-color: #1c2957;
+    border-color: whitesmoke;
     background-color: #a09c5c;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     color: black;
-    
 }
+
+/* O código comentado é da paradinha pra fazer o texto em scroll
+<style>
+.marquee-container {
+  width: 100%;                Largura total do container *
+  overflow: hidden;          /* Esconde conteúdo que ultrapassar o container *
+  background: #0064af;       /* Cor de fundo *
+  color: #fee7b1;            /* Cor do texto branco (#FFFFFF) *
+  font-size: 22px;           /* Tamanho da fonte *
+  white-space: nowrap;       /* Impede quebra de linha do texto *
+  padding: 8px 0;           /* Espaçamento interno (8px topo/baixo, 0 laterais) *
+}
+.marquee-text {
+  display: inline-block;     /* Permite animação de transformação *
+  padding-left: 100%;        /* Inicia o texto fora da tela (à direita) *
+  animation: marquee 15s linear infinite; /* Aplica animação 'marquee' *
+  font-weight: bold;         /* Tipo de formatação da fonte (negrito = bold) *
+  font-family: Segoe UI, sans-serif; /* Tipo de fonte ( Segoe UI) *
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }     /* Posição inicial (à direita) *
+  100% { transform: translateX(-100%); } /* Move o texto para a esquerda (-100%) *
+}
+</style>
+<div class='marquee-container'>
+  <div class='marquee-text'>" & [Hora] & "</div>
+</div>*/

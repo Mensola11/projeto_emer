@@ -3,11 +3,11 @@
 
 <head>
     <link rel="icon" href="/Projetos_Emer__/static/favicon.jpeg">
-    <title> Formulário dos Coletores </title> 
+    <title> Formulário dos Coletores </title>
+    <link rel="stylesheet" href="/projeto_emer/static/style.css"> 
 </head>
 <div class="header">
 <header>
-    <link rel="stylesheet" href="/Projetos_Emer__/static/style.css">
     Formulário de Inventário dos Coletores
 </header>
 </div>
@@ -15,26 +15,33 @@
     <body>
     <h1>
         Preencha as informações abaixo:
-    </h1><br>
+    </h1>
+    <br>
 <div class="form">
         <form>
-        <label for="text">Nº do Coletora:</label>
+        <label for="text">Nº do Coletor:</label>
         <br>
-        <input type="text">
+        <input type="text", placeholder="ex.: C00001">
         <br>
         <label for="text">Fabricante:</label>
         <br>
-        <input type="text"><br>
-        <label for="text">Serial:</label><br>
-        <input type="text"><br>
-        <label for="text">CD:</label><br> 
+        <input type="text", placeholder="ex.: Zebra">
+        <br>
+        <label for="text">Serial:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="text">CD:</label>
+        <br> 
         <select name="cd" id="cd">
             <option value="cdem_sp">CD Embu</option>
             <option value="cde2_sp">CD Embu 2</option>
             <option value="cdma_sp">CD Mauá</option>
             <option value="cdhd_go">CD Hidrolândia</option>
-        </select><br>
-        <label for="text">Local/Área</label><br>
+        </select>
+        <br>
+        <label for="text">Local/Área</label>
+        <br>
         <select name="local_area" id="local_area">
             <option value="area_b_k_w">ÁREA B/K/W</option>
             <option value="ecommerce">E-COMMERCE</option>
@@ -47,19 +54,23 @@
             <option value="qualidade">QUALIDADE</option>
             <option value="recebimento_guarda">RECEBIMENTO/GUARDA</option>
             <option value="sem_area">SEM AREA</option>
-        </select><br>
-        <label for="status">Status</label><br>
+        </select>
+        <br>
+        <label for="status">Status</label
+        ><br>
         <select name="status" id="local_area">
             <option value="em_operacao">EM OPERAÇÃO</option>
             <option value="estoque_cd">ESTOQUE CD</option>
             <option value="manutencao">MANUTENÇÃO</option>
             <option value="inativado">INATIVADO</option>
-        </select><br>
-        <label for="text">Observações</label><br>
-        <textarea name="observacoes" rows="6" cols="45"></textarea><br>
+        </select>
+        <br>
+        <label for="text">Observações</label>
+        <br>
+        <textarea name="observacoes" rows="6" cols="38"></textarea>
+        <br>
         <input type="submit" value="Enviar">
     </form>
-</div>
-</div>
 </body>
+<!-- <img src="/projeto_emer/static/Grupo_Petz_Cobasi.png" alt="img" style="width:250px;height:85px;"> Lembrar de adicionar o logo tipo--> 
 </html>
